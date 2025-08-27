@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff8d6;
+  font-family: 'Fredoka', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+}
+
+a{
+  color: green;
+}
+
+.portfolio {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff3b0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.sunflower {
+  width: 150px;
+  transition: transform 0.5s;
+}
+
+.dance {
+  animation: spin 0.6s infinite alternate;
+}
+
+@keyframes spin {
+  0% { transform: rotate(-10deg) scale(1.1); }
+  100% { transform: rotate(10deg) scale(1.2); }
+}
+
+button {
+  margin: 15px 0;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #ffce30;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffc107;
+}
+
+section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('images/Gramado_de_dia.webp') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
